@@ -158,4 +158,4 @@ This project successfully diagnosed the core business problem: **Apollo Commerce
 Data Analyst | Power BI Developer | SQL | Excel | DAX
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/shivraj-singh-sisodiya/)
-[![Portfolio](https://img.shields.io/badge/NovyPro-View_Dashboard-purple)](https://www.datascienceportfol.io/shivraj)
+[![Portfolio](https://img.shields.io/badge/portfolio-View_Dashboard-purple)](https://www.datascienceportfol.io/shivraj)
