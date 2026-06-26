@@ -96,6 +96,13 @@ The **Profitability & Loss Analysis** page provides a granular breakdown of wher
 
 ---
 
+### 📈 Business Overview
+- Revenue peaked in **December (+16%)** and dipped in **April (-15.9%)** — seasonal pattern identified
+- **Online channel** drives 38.87% of revenue but also the most loss
+- AOV (Average Order Value): **₹262.30K** — stable MoM
+
+---
+
 ## 🗂️ Repository Structure
 
 ```
@@ -125,21 +132,46 @@ apollo-commerce-dashboard/
 3. **Connect your data source** and refresh the dashboard.
 
 ---
+## ⚙️ Methods & Approach
 
-## 🛠️ Tools Used
+**1. Data Cleaning (Power Query)**
+- Removed nulls and inconsistent category labels
+- Standardized date formats and created a dynamic Calendar table
+- Handled return order flags and feedback sentiment columns
 
-| Tool | Purpose |
-|------|---------|
-| Power BI Desktop | Dashboard development |
-| DAX | Calculated measures & KPIs |
-| Power Query | Data transformation |
+**2. Data Modeling**
+- Built a Star Schema with Fact (Orders) + Dimension tables (Customers, Products, Calendar, Channels)
+- Established correct one-to-many relationships with single-direction filters
+- Created calculated columns for CLV, margin bands, and return flags
+
+**3. DAX Measure Development**
+- KPI Cards: Total Revenue, Net Profit, Profit Margin %, Return %, Cancellation Rate
+- Time Intelligence: MoM Growth, YoY Comparison, Running Totals
+- Advanced: Customer Lifetime Value (CLV), Loss Order %, Avg Discount vs Profit scatter logic
+
+**4. Dashboard Design**
+- 4-page layout with consistent purple/white brand theme
+- Cross-page slicers: Brand, Category, Region, City, Month, Year, Quarter
+- Navigation sidebar with page-level bookmarks
 
 ---
 
-## 📌 Filters Available
+## 📝 Results & Conclusion
 
-All dashboard pages support the following slicers:
-- **Brand** · **Category** · **Region** · **City** · **Month** · **Year** · **Quarter**
+This project successfully diagnosed the core business problem: **Apollo Commerce is a high-revenue, low-margin operation suffering from discount dependency, high return rates, and poor customer retention.**
+
+**Key Recommendations Delivered:**
+- Reduce blanket discounting — target discounts only to high-CLV customer segments
+- Prioritize Platinum loyalty tier acquisition over Bronze to improve LTV
+- Audit Automotive and Grocery supply chain to reduce return rates
+- Expand East and Central regional presence — currently underserved markets
+- Review Online channel economics — highest revenue but also highest loss contributor
+
+**Business Impact of Dashboard:**
+- Identified ₹2.06Bn in preventable losses
+- Flagged ₹608.2M refund exposure with root-cause analysis
+- Provided regional and channel-level P&L breakdown for strategic reallocation
+
 
 ---
 
