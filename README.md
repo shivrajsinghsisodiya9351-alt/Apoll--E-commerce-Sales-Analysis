@@ -22,7 +22,7 @@ The **Overview Summary** page provides a high-level snapshot of Apollo Commerce'
 - Payment Mode Distribution — UPI leads at 29.10%, followed by Credit Card at 23.63%
 - Detailed product-level transaction table with order status, payment method, and region
 
-![Overview Summary Dashboard](https://github.com/shivrajsinghsisodiya9351-alt/Apoll--E-commerce-Sales-Analysis/blob/main/Overview%20Summery.png)
+![Overview Summary Dashboard](https://raw.githubusercontent.com/shivrajsinghsisodiya9351-alt/Apoll--E-commerce-Sales-Analysis/main/Overview%20Summery.png)
 
 ---
 
@@ -43,7 +43,7 @@ The **Customer Behaviour Analysis** page dives deep into customer demographics, 
 - Top 10 Cities by Customers — Varanasi (152), Vadodara (131), Pune (129) are top 3
 - Customer-level detail table with loyalty status, preferred channel, region, city, state, gender, age, and rating
 
-![Customer Behaviour Analysis Dashboard](images/Customer_Behavior_Analysis.png)
+![Customer Behaviour Analysis Dashboard](https://raw.githubusercontent.com/shivrajsinghsisodiya9351-alt/Apoll--E-commerce-Sales-Analysis/main/Customer%20Behavior%20Analysis.png)
 
 ---
 
@@ -68,7 +68,7 @@ The **Product Risk & Return Analysis** page focuses on returns, refunds, custome
 - Order Count by Reason for return — Accidental order (276), Better price elsewhere (243), Not as per expectation (243) are top reasons
 - Product-level detail table with rating, return orders, return %, refund amount, stock qty, and margin
 
-![Product Risk & Return Analysis Dashboard](images/Product_Risk_and_Return_Analysis.png)
+![Product Risk & Return Analysis Dashboard](https://raw.githubusercontent.com/shivrajsinghsisodiya9351-alt/Apoll--E-commerce-Sales-Analysis/main/Product%20Risk%20and%20Return%20Analysis.png)
 
 ---
 
@@ -92,7 +92,7 @@ The **Profitability & Loss Analysis** page provides a granular breakdown of wher
 - Profit vs Avg Discount scatter — higher discounts correlate with lower/negative profits
 - Loss Amount by Sales Channel — Online channel has the highest loss at ₹0.71bn
 
-![Profitability & Loss Analysis Dashboard](images/P_L_Analysis.png)
+![Profitability & Loss Analysis Dashboard](https://raw.githubusercontent.com/shivrajsinghsisodiya9351-alt/Apoll--E-commerce-Sales-Analysis/main/P%26L%20Analysis.png)
 
 ---
 
