@@ -147,8 +147,8 @@ All dashboard pages support the following slicers:
 
 **Apollo Commerce Analytics Team**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com)
-[![Website](https://img.shields.io/badge/Website-Visit-green?logo=google-chrome)](https://apollocommerce.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/shivraj-singh-sisodiya/)
+[![Website](https://img.shields.io/badge/Website-Visit-green?logo=google-chrome)](https://www.datascienceportfol.io/shivraj)
 
 ---
 
