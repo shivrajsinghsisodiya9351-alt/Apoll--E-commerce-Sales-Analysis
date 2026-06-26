@@ -1,161 +1,155 @@
-# 🛒 Apollo Commerce — Multi-Channel E-Commerce BI Dashboard
+# 🛒 Apollo Commerce — Business Intelligence Dashboard
 
-> **A full-stack business intelligence solution analyzing ₹13.12Bn in revenue across 50,000+ transactions (FY 2021–2024) using Power BI, SQL, Excel, DAX, and Power Query.**
-
----
-
-## 📌 Project Overview
-
-Apollo Commerce is a fictional multi-channel Indian e-commerce company operating across Online, Offline, Mobile App, Distributor, and Direct Sales channels — covering 10 product categories and 5 sales regions.
-
-This project simulates a **real-world BI engagement** where a Data Analyst is hired to:
-- Diagnose why a ₹13.12Bn revenue company is generating a net margin of only **13.87%**
-- Identify profit leakage, high-return product categories, and unprofitable customer segments
-- Deliver a 4-page executive-level Power BI dashboard with actionable business recommendations
+> A comprehensive Power BI dashboard suite built for **Apollo Commerce**, providing end-to-end insights across revenue, customer behavior, product performance, and profitability.
 
 ---
 
-## 🚨 Problem Statement
+## 📊 Dashboard Pages
 
-Despite generating ₹13.12Bn in total revenue, Apollo Commerce faces critical business challenges:
+### 1. 📋 Overview Summary
 
-| Business Problem | Impact |
-|---|---|
-| All 10 product categories show **negative profit margins** | Net profit at risk |
-| ₹608.2M in refund amount with 7.14% return rate | Revenue leakage |
-| 44.83% negative customer feedback | Brand trust erosion |
-| ₹2.06Bn in lost amount from unprofitable orders | Margin compression |
-| 15.22% loss order percentage | Operational inefficiency |
-| North region dominates (20.2K customers), East & Central underperform | Regional imbalance |
+The **Overview Summary** page provides a high-level snapshot of Apollo Commerce's overall business performance.
 
----
+**Key Metrics:**
+- 💰 **Total Revenue:** ₹13.12 Billion (▲ 2.9% vs Last Month)
+- 📈 **Total Profit:** ₹1.82 Billion (▲ 2.8% vs Last Month)
+- 📦 **Total Orders:** 50K (▲ 2.9% vs Last Month)
+- 🛒 **Average Order Value (AOV):** ₹2,62,300 (▲ 0.1% vs Last Month)
 
-## 📊 Dataset Details
+**Visuals Included:**
+- Monthly revenue trend with MoM % change
+- Revenue breakdown by Sales Channel (Online 38.87%, Offline 21.39%, Mobile App 19.25%, Distributor 12.11%, Direct Sales 8.39%)
+- Payment Mode Distribution — UPI leads at 29.10%, followed by Credit Card at 23.63%
+- Detailed product-level transaction table with order status, payment method, and region
 
-| Attribute | Details |
-|---|---|
-| Total Records | ~50,000 rows |
-| Time Period | FY 2021 – FY 2024 |
-| Columns | Orders, Customers, Products, Sales Channel, Region, Payment Mode, Returns, Feedback |
-| Categories | Automotive, Beauty, Books, Clothing, Electronics, Grocery, Home & Kitchen, Sports, Toys |
-| Sales Channels | Online, Offline, Mobile App, Distributor, Direct Sales |
-| Regions | North, South, East, West, Central |
-| Source | Custom-generated India e-commerce dataset |
+![Overview Summary Dashboard](images/Overview_Summery.png)
 
 ---
 
-## 🛠️ Tools & Technologies
+### 2. 👥 Customer Behaviour Analysis
+
+The **Customer Behaviour Analysis** page dives deep into customer demographics, loyalty, and regional distribution.
+
+**Key Metrics:**
+- 👤 **Total Customers:** 5,000
+- 💵 **Revenue per Customer:** ₹2.62 Million (▲ 2.9%)
+- 📦 **Total Orders:** 50K (▲ 2.9%)
+- ❌ **Cancellation Rate:** 8.08%
+
+**Visuals Included:**
+- Customer Loyalty Status breakdown — Bronze (1,494), Silver (1,417), Gold (993), Unassigned (600), Platinum (496)
+- Customer Count by Region — North leads with 20.2K, followed by West (12.9K) and South (9.7K)
+- Customers Count by Sales Channel — Online dominates with 19K
+- Top 10 Cities by Customers — Varanasi (152), Vadodara (131), Pune (129) are top 3
+- Customer-level detail table with loyalty status, preferred channel, region, city, state, gender, age, and rating
+
+![Customer Behaviour Analysis Dashboard](images/Customer_Behavior_Analysis.png)
+
+---
+
+### 3. ⚠️ Product Risk & Return Analysis
+
+The **Product Risk & Return Analysis** page focuses on returns, refunds, customer sentiment, and product-level risk indicators.
+
+**Key Metrics:**
+- 💸 **Total Refund Amount:** ₹608.2 Million
+- 🔄 **Return Orders:** 3,600
+- 📉 **Return %:** 7.14%
+- ⭐ **Avg Customer Rating:** 2.59
+- 📦 **Total Stock Quantity:** 1,99,900
+- 👎 **Negative Feedback %:** 44.83%
+- 📊 **Margin:** 28.08
+
+**Visuals Included:**
+- Top 10 Products by Revenue — Mattel Wearables Smart 2.7 leads at ₹0.36bn
+- Sentiment Review Count — 44.83% Negative (1.55K), 29.15% Neutral (1.01K), 26.02% Positive (0.9K) out of 3.5K total reviews
+- Return % by Category — Automotive highest at 8.31%, Home & Kitchen lowest at 6.49%
+- Avg Rating vs Return Rate scatter plot
+- Order Count by Reason for return — Accidental order (276), Better price elsewhere (243), Not as per expectation (243) are top reasons
+- Product-level detail table with rating, return orders, return %, refund amount, stock qty, and margin
+
+![Product Risk & Return Analysis Dashboard](images/Product_Risk_and_Return_Analysis.png)
+
+---
+
+### 4. 💹 Profitability & Loss Analysis
+
+The **Profitability & Loss Analysis** page provides a granular breakdown of where the business is making and losing money.
+
+**Key Metrics:**
+- 💰 **Total Revenue:** ₹13.12 Billion
+- 📈 **Net Profit:** ₹1.82 Billion
+- 📊 **Profit Margin:** 13.87%
+- 📉 **Lost Amount:** ₹2.06 Billion
+- ❌ **Unprofitable Orders:** 9,320
+- 🏷️ **Discount Amount:** ₹1.37 Billion
+- 🔻 **Loss Order %:** 15.22%
+
+**Visuals Included:**
+- Profit by Month Trend — showing seasonal fluctuations with peak in Jan (₹174M) and trough in Apr (₹126M)
+- P&L by Products (Category-wise) — All categories show **negative profit margins**, with Electronics the largest loss (−₹42M on ₹1.11bn revenue)
+- P&L Value by Category bar chart — Revenue vs Net Profit vs Shipping Cost vs Refund vs Discount vs Tax vs Total
+- Profit vs Avg Discount scatter — higher discounts correlate with lower/negative profits
+- Loss Amount by Sales Channel — Online channel has the highest loss at ₹0.71bn
+
+![Profitability & Loss Analysis Dashboard](images/P_L_Analysis.png)
+
+---
+
+## 🗂️ Repository Structure
+
+```
+apollo-commerce-dashboard/
+│
+├── images/
+│   ├── Overview_Summery.png
+│   ├── Customer_Behavior_Analysis.png
+│   ├── Product_Risk_and_Return_Analysis.png
+│   └── P_L_Analysis.png
+│
+├── README.md
+└── Apollo_Commerce_Dashboard.pbix   ← (Power BI file, if included)
+```
+
+---
+
+## 🚀 How to Use
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/apollo-commerce-dashboard.git
+   ```
+
+2. **Open the Power BI file** (`Apollo_Commerce_Dashboard.pbix`) in Power BI Desktop.
+
+3. **Connect your data source** and refresh the dashboard.
+
+---
+
+## 🛠️ Tools Used
 
 | Tool | Purpose |
-|---|---|
-| **Power BI Desktop** | Dashboard development, DAX, data modeling |
-| **DAX (Data Analysis Expressions)** | KPI measures, time intelligence, conditional formatting |
-| **Power Query (M Language)** | Data cleaning, transformation, column profiling |
-| **Microsoft Excel** | Initial data exploration and validation |
-| **SQL (PostgreSQL)** | Pre-processing, aggregation queries, data validation |
-| **Figma** | Dashboard wireframing and UI layout planning |
+|------|---------|
+| Power BI Desktop | Dashboard development |
+| DAX | Calculated measures & KPIs |
+| Power Query | Data transformation |
 
 ---
 
-## ⚙️ Methods & Approach
+## 📌 Filters Available
 
-**1. Data Cleaning (Power Query)**
-- Removed nulls and inconsistent category labels
-- Standardized date formats and created a dynamic Calendar table
-- Handled return order flags and feedback sentiment columns
-
-**2. Data Modeling**
-- Built a Star Schema with Fact (Orders) + Dimension tables (Customers, Products, Calendar, Channels)
-- Established correct one-to-many relationships with single-direction filters
-- Created calculated columns for CLV, margin bands, and return flags
-
-**3. DAX Measure Development**
-- KPI Cards: Total Revenue, Net Profit, Profit Margin %, Return %, Cancellation Rate
-- Time Intelligence: MoM Growth, YoY Comparison, Running Totals
-- Advanced: Customer Lifetime Value (CLV), Loss Order %, Avg Discount vs Profit scatter logic
-
-**4. Dashboard Design**
-- 4-page layout with consistent purple/white brand theme
-- Cross-page slicers: Brand, Category, Region, City, Month, Year, Quarter
-- Navigation sidebar with page-level bookmarks
-
----
-
-## 💡 Key Insights
-
-### 💸 Profitability & Loss
-- **Net Profit Margin: 13.87%** — critically low for a ₹13Bn business
-- **Electronics** has the highest absolute loss: **₹42M** in negative profit
-- **Clothing** leads revenue (₹135M) but still posts **-3.81% margin**
-- Heavy discounting (Avg 6–7%) is directly compressing margins across all categories
-- **Online channel leads lost amount** at ₹0.71Bn — highest loss-generating channel despite highest revenue share (38.87%)
-
-### 🔄 Product Risk & Returns
-- **Automotive** has the highest return rate at **8.31%** — quality or expectation mismatch
-- Top return reasons: Accidental orders (276), Better price elsewhere (243), Not as per expectation (243)
-- **44.83% Negative Feedback** vs only 26.02% Positive — customer satisfaction is a major risk
-- High-revenue products (Mattel Wearables, Tata Audio) still have single-digit avg ratings
-
-### 👥 Customer Behaviour
-- **5,000 unique customers** with ₹2.62M revenue per customer
-- **Bronze (1,494) and Silver (1,417)** are largest loyalty segments — Platinum retention is poor (496 only)
-- **North region: 20.2K customers** vs East & Central at 3.6K each — extreme geographic concentration
-- **Cancellation Rate: 8.08%** — needs operational investigation
-- UPI dominates payments at **29.10%**, Credit Card second at **23.63%**
-
-### 📈 Business Overview
-- Revenue peaked in **December (+16%)** and dipped in **April (-15.9%)** — seasonal pattern identified
-- **Online channel** drives 38.87% of revenue but also the most loss
-- AOV (Average Order Value): **₹262.30K** — stable MoM
-
----
-
-## 📸 Dashboard Pages
-
-| Page | Description |
-|---|---|
-| **1. Overview Summary** | Revenue, Profit, Orders, AOV KPIs — Monthly trend, Payment mode, Sales channel distribution |
-| **2. Customer Behaviour Analysis** | Customer segmentation, loyalty tiers, regional spread, city-level analysis |
-| **3. Product Risk & Return Analysis** | Return rates by category, sentiment analysis, top revenue/profit products, return reasons |
-| **4. Profitability & Loss Analysis** | P&L waterfall, margin by category, profit trend, loss by channel, discount vs profit scatter |
-
-> 📎 **Live Dashboard:** [View on NovyPro](#) *(link)*
-> 📎 **Download .pbix:** Available in this repository
-
----
-
-## ▶️ How to Run This Project
-
-1. Download the `.pbix` file from this repository
-2. Open in **Power BI Desktop** (version April 2024 or later recommended)
-3. Data is fully embedded — no external database connection required
-4. Use the slicers (Brand, Category, Region, Month, Year) to explore the dashboard
-5. Navigate between pages using the left sidebar
-
----
-
-## 📝 Results & Conclusion
-
-This project successfully diagnosed the core business problem: **Apollo Commerce is a high-revenue, low-margin operation suffering from discount dependency, high return rates, and poor customer retention.**
-
-**Key Recommendations Delivered:**
-- Reduce blanket discounting — target discounts only to high-CLV customer segments
-- Prioritize Platinum loyalty tier acquisition over Bronze to improve LTV
-- Audit Automotive and Grocery supply chain to reduce return rates
-- Expand East and Central regional presence — currently underserved markets
-- Review Online channel economics — highest revenue but also highest loss contributor
-
-**Business Impact of Dashboard:**
-- Identified ₹2.06Bn in preventable losses
-- Flagged ₹608.2M refund exposure with root-cause analysis
-- Provided regional and channel-level P&L breakdown for strategic reallocation
+All dashboard pages support the following slicers:
+- **Brand** · **Category** · **Region** · **City** · **Month** · **Year** · **Quarter**
 
 ---
 
 ## 👤 Author
 
-**Shivraj Singh Sisodiya**
-Data Analyst | Power BI Developer | SQL | Excel | DAX
+**Apollo Commerce Analytics Team**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/shivraj-singh-sisodiya/)
-[![Portfolio](https://img.shields.io/badge/portfolio-View_Dashboard-purple)](https://www.datascienceportfol.io/shivraj)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com)
+[![Website](https://img.shields.io/badge/Website-Visit-green?logo=google-chrome)](https://apollocommerce.com)
+
+---
+
+> ⭐ If you found this useful, please star the repository!
