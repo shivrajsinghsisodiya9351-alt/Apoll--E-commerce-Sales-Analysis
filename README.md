@@ -22,7 +22,7 @@ The **Overview Summary** page provides a high-level snapshot of Apollo Commerce'
 - Payment Mode Distribution — UPI leads at 29.10%, followed by Credit Card at 23.63%
 - Detailed product-level transaction table with order status, payment method, and region
 
-![Overview Summary Dashboard](images/Overview_Summery.png)
+![Overview Summary Dashboard](https://github.com/shivrajsinghsisodiya9351-alt/Apoll--E-commerce-Sales-Analysis/blob/main/Overview%20Summery.png)
 
 ---
 
